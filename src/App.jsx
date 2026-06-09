@@ -120,7 +120,7 @@ function IntroScreen() {
             transition={{ duration: 3.7, ease: 'easeInOut', repeat: Infinity, repeatDelay: 0.4 }}
           >
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-espresso/58">
-              For {config.friendName}
+              عشان {config.friendName}
             </p>
             <p className="mt-4 font-display text-3xl font-extrabold leading-none text-ink">
               خريجة {config.graduationYear}
