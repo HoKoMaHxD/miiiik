@@ -123,7 +123,7 @@ function IntroScreen() {
               For {config.friendName}
             </p>
             <p className="mt-4 font-display text-3xl font-extrabold leading-none text-ink">
-              Class of {config.graduationYear}
+              خريجة {config.graduationYear}
             </p>
             <div className="mt-5 space-y-2">
               <span className="block h-2 w-full rounded-full bg-champagne/70" />
@@ -221,7 +221,7 @@ function Hero() {
           className="max-w-3xl"
         >
           <p className="mb-5 inline-flex rounded-full border border-ink/10 bg-white/45 px-4 py-2 text-sm font-extrabold uppercase tracking-[0.18em] text-espresso shadow-soft">
-            Class of {config.graduationYear}
+            خريجة {config.graduationYear}
           </p>
           <h1 className="safe-word font-display text-5xl font-extrabold leading-[0.98] text-ink sm:text-7xl lg:text-8xl">
             {config.heroTitlePrefix},{' '}
@@ -236,7 +236,7 @@ function Hero() {
               href="#message"
               className="rounded-lg border border-ink/15 bg-white/55 px-6 py-4 text-center text-base font-extrabold text-ink shadow-soft transition hover:-translate-y-0.5 hover:bg-white focus:outline-none focus:ring-4 focus:ring-champagne/40"
             >
-              Read the note
+              اقرأي الملاحظة.
             </a>
           </div>
         </motion.div>
@@ -254,7 +254,7 @@ function Hero() {
             <GraduationCap className="absolute left-1/2 top-[44%] h-56 w-56 -translate-x-1/2 -translate-y-1/2 sm:h-72 sm:w-72" />
             <div className="absolute bottom-8 left-1/2 w-[86%] -translate-x-1/2 rounded-lg border border-white/70 bg-white/55 px-5 py-4 text-center shadow-soft">
               <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-espresso/70">
-                Officially legendary
+                صرتي أسطورة رسمياً!
               </p>
               <p className="mt-1 font-display text-3xl font-extrabold text-ink">
                 {config.graduationYear}
@@ -345,11 +345,11 @@ function PersonalMessage() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <p className="mb-3 text-sm font-extrabold uppercase tracking-[0.18em] text-espresso/65">
-            A quick note
+            ملاحظة عالسريع
           </p>
           <div className="max-w-xl space-y-5 text-xl font-semibold leading-9 text-espresso/82 sm:text-2xl sm:leading-10">
-            <p>I know life changes and people get busy, but this is still a big moment.</p>
-            <p>I’m happy for you, and this is my little way of saying congratulations :)</p>
+            <p>صح إن الحياة تتغير والناس تلهى بمشاغلها، بس هذا الإنجاز يظل عظيم وما يمر مرور الكرام.</p>
+            <p>فرحتي لك كبيرة، وهذي طريقتي البسيطة عشان أقول لك ألف مبروك :)</p>
           </div>
         </div>
 
@@ -366,7 +366,7 @@ function PersonalMessage() {
         >
           <div className="rounded-lg border border-champagne/55 bg-parchment/75 p-6 sm:p-8">
             <p className="font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl">
-              Dear {config.friendName},
+              عزيزتي {config.friendName},
             </p>
             <p className="mt-6 text-lg leading-9 text-espresso/86">{config.personalMessage}</p>
             <p className="mt-8 text-right font-display text-2xl font-extrabold text-ink">
@@ -460,7 +460,7 @@ function CelebrationChoice({ onCelebrate, celebrated, celebrationBurstId }) {
                 exit={{ opacity: 0, y: 10, scale: 0.96 }}
               >
                 <p className="safe-word text-sm font-extrabold uppercase tracking-[0.14em] text-espresso/62">
-                  accepted
+                  قبلت
                 </p>
                 <p className="safe-word mt-1 text-base font-extrabold leading-6 text-ink">
                   {config.celebrationAcceptedText}
@@ -567,7 +567,7 @@ function FinalMessage() {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: -10, scale: 0.96 }}
               >
-                {hype || 'Tap for hype 🎉'}
+                {hype || 'اضغطي لجرعة حماس! 🎉'}
               </motion.p>
             </AnimatePresence>
 
