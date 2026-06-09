@@ -2,7 +2,7 @@ export const surpriseConfig = {
   // Customize these first.
   friendName: 'رذاذ',
   graduationYear: '2026',
-  senderName: 'حكومة',
+  senderName: 'انور',
 
   // Customize the main message and button copy here.
   heroTitlePrefix: 'مبرووك',
