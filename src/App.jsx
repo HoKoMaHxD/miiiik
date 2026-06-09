@@ -254,7 +254,7 @@ function Hero() {
             <GraduationCap className="absolute left-1/2 top-[44%] h-56 w-56 -translate-x-1/2 -translate-y-1/2 sm:h-72 sm:w-72" />
             <div className="absolute bottom-8 left-1/2 w-[86%] -translate-x-1/2 rounded-lg border border-white/70 bg-white/55 px-5 py-4 text-center shadow-soft">
               <p className="text-sm font-extrabold uppercase tracking-[0.18em] text-espresso/70">
-                صرتي أسطورة رسمياً!
+                صرتي خريجة رسمياً!
               </p>
               <p className="mt-1 font-display text-3xl font-extrabold text-ink">
                 {config.graduationYear}
