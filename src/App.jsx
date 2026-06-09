@@ -175,7 +175,7 @@ function IntroScreen() {
           />
         </div>
 
-        <p className="mt-4 text-sm font-bold text-espresso/62">Almost ready...</p>
+        <p className="mt-4 text-sm font-bold text-espresso/62">تكة وتجهز...</p>
       </div>
     </motion.section>
   );
